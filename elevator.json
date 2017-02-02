@@ -1,0 +1,58 @@
+{
+    "version": 1, 
+    "interactions": [
+        {
+            "request": {
+                "body": null, 
+                "headers": {
+                    "Host": [
+                        "www3.septa.org"
+                    ], 
+                    "Connection": [
+                        "close"
+                    ], 
+                    "User-Agent": [
+                        "Python-urllib/2.7"
+                    ]
+                }, 
+                "method": "GET", 
+                "uri": "http://www3.septa.org/hackathon/elevator/"
+            }, 
+            "response": {
+                "status": {
+                    "message": "OK", 
+                    "code": 200
+                }, 
+                "headers": {
+                    "content-length": [
+                        "1038"
+                    ], 
+                    "set-cookie": [
+                        "AWSELB=6119ABE10E479D9F1D4DCFEE3CC5BA92AD0A75BC9894C4AA4CE9A07AB14B3EB614F4C0765651FCE37B9A976D738B2E7FBE7E804DCD816C74A9DDCDB599E2A993B1426CAFAB;PATH=/"
+                    ], 
+                    "vary": [
+                        "Accept-Encoding"
+                    ], 
+                    "server": [
+                        "Apache"
+                    ], 
+                    "connection": [
+                        "Close"
+                    ], 
+                    "cache-control": [
+                        "no-cache=\"set-cookie\""
+                    ], 
+                    "date": [
+                        "Fri, 27 Jan 2017 19:58:31 GMT"
+                    ], 
+                    "content-type": [
+                        "text/html"
+                    ]
+                }, 
+                "body": {
+                    "string": "{\"meta\":{\"elevators_out\":3,\"updated\":\"2017-01-27 14:58:31\"},\"results\":[{\"line\":\"Market Frankford Line\",\"station\":\"8th Street\",\"elevator\":\"Eastbound (City of Philadelphia)\",\"message\":\"No access to\\/from station\",\"message_html\":\"<ul><li>No access to\\/from station<\\/li><\\/ul>\",\"alternate_url\":\"http:\\/\\/www.septa.org\\/service\\/accessible_septa\\/alt_service_mfl.html\"},{\"line\":\"Regional Rail\",\"station\":\"Chester Transportation Center\",\"elevator\":\"Inbound\",\"message\":\"No access to\\/from inbound platform (To Center City)\",\"message_html\":\"<ul><li>No access to\\/from inbound platform (To Center City)<\\/li><\\/ul>\",\"alternate_url\":\"http:\\/\\/www.septa.org\\/service\\/accessible_septa\\/alt_service_rrd.html\"},{\"line\":\"Regional Rail\",\"station\":\"Chester Transportation Center\",\"elevator\":\"Outbound\",\"message\":\"No access to\\/from onbound platform (From Center City)\",\"message_html\":\"<ul><li>No access to\\/from onbound platform (From Center City)<\\/li><\\/ul>\",\"alternate_url\":\"http:\\/\\/www.septa.org\\/service\\/accessible_septa\\/alt_service_rrd.html\"}]}"
+                }
+            }
+        }
+    ]
+}

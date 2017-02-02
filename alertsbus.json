@@ -1,0 +1,66 @@
+{
+    "version": 1, 
+    "interactions": [
+        {
+            "request": {
+                "body": null, 
+                "headers": {
+                    "Host": [
+                        "www3.septa.org"
+                    ], 
+                    "Connection": [
+                        "close"
+                    ], 
+                    "User-Agent": [
+                        "Python-urllib/2.7"
+                    ]
+                }, 
+                "method": "GET", 
+                "uri": "http://www3.septa.org/hackathon/Alerts/get_alert_data.php?req1=bus_route_1"
+            }, 
+            "response": {
+                "status": {
+                    "message": "OK", 
+                    "code": 200
+                }, 
+                "headers": {
+                    "content-length": [
+                        "265"
+                    ], 
+                    "set-cookie": [
+                        "AWSELB=6119ABE10E479D9F1D4DCFEE3CC5BA92AD0A75BC9869580A39B29CA7A9633455571E68DADA8325E6CA68B217805A17D77BA9BE8C45B391E1FD46EF6925EE4BAE384CFBD17B;PATH=/"
+                    ], 
+                    "expires": [
+                        "Mon, 26 Jul 1997 05:00:00 GMT"
+                    ], 
+                    "server": [
+                        "Apache"
+                    ], 
+                    "last-modified": [
+                        "Fri, 27 Jan 2017 19:53:09 GMT"
+                    ], 
+                    "connection": [
+                        "Close"
+                    ], 
+                    "pragma": [
+                        "no-cache"
+                    ], 
+                    "cache-control": [
+                        "no-store, no-cache, must-revalidate", 
+                        "post-check=0, pre-check=0", 
+                        "no-cache=\"set-cookie\""
+                    ], 
+                    "date": [
+                        "Fri, 27 Jan 2017 19:53:09 GMT"
+                    ], 
+                    "content-type": [
+                        "application/json"
+                    ]
+                }, 
+                "body": {
+                    "string": "[{\"route_id\":\"bus_route_1\",\"route_name\":\"1\",\"current_message\":\"\",\"advisory_message\":\"\",\"detour_message\":\"\",\"detour_start_location\":\"\",\"detour_start_date_time\":\"\",\"detour_end_date_time\":\"\",\"detour_reason\":\"\",\"last_updated\":\"Nov  7 2016 04:01:37:910PM\",\"isSnow\":\"N\"}]"
+                }
+            }
+        }
+    ]
+}

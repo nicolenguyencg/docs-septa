@@ -1,0 +1,76 @@
+{
+    "version": 1, 
+    "interactions": [
+        {
+            "request": {
+                "body": null, 
+                "headers": {
+                    "Host": [
+                        "www.septa.org"
+                    ], 
+                    "Connection": [
+                        "close"
+                    ], 
+                    "User-Agent": [
+                        "Python-urllib/2.7"
+                    ]
+                }, 
+                "method": "GET", 
+                "uri": "http://www.septa.org/realtime/alert.html"
+            }, 
+            "response": {
+                "status": {
+                    "message": "OK", 
+                    "code": 200
+                }, 
+                "headers": {
+                    "content-length": [
+                        "362"
+                    ], 
+                    "via": [
+                        "1.1 9aaf336897fdd8a2dfd1b375c61d8b0b.cloudfront.net (CloudFront)"
+                    ], 
+                    "x-cache": [
+                        "Hit from cloudfront"
+                    ], 
+                    "accept-ranges": [
+                        "bytes"
+                    ], 
+                    "vary": [
+                        "Accept-Encoding"
+                    ], 
+                    "server": [
+                        "Apache/2.2.22 (Ubuntu)"
+                    ], 
+                    "last-modified": [
+                        "Fri, 27 Jan 2017 19:48:01 GMT"
+                    ], 
+                    "connection": [
+                        "close"
+                    ], 
+                    "etag": [
+                        "\"2713a-16a-54718be51fddc\""
+                    ], 
+                    "x-amz-cf-id": [
+                        "ceMs9ZW_tvm5Ig1YgEbnHi39LTC4PWWSsmotRFo5z5ctryvLRc2EEg=="
+                    ], 
+                    "cache-control": [
+                        "max-age=0, must-revalidate"
+                    ], 
+                    "date": [
+                        "Fri, 27 Jan 2017 19:49:52 GMT"
+                    ], 
+                    "content-type": [
+                        "text/html"
+                    ], 
+                    "age": [
+                        "12"
+                    ]
+                }, 
+                "body": {
+                    "string": "<META HTTP-EQUIV=\"CACHE-CONTROL\" CONTENT=\"NO-CACHE\"><font face=\"verdana\" size=\"1\">For current updates on all routes go to <a href=\"http://www.septa.org/realtime/status/system-status.shtml\" target=\"_blank\">System Status</a>.<br /><br /><b>Trolley:</b><br />Route  10: Eastbound trolleys are experiencing delays of up to 15 minutes due to equipment problems.<br />"
+                }
+            }
+        }
+    ]
+}
